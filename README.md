@@ -11,7 +11,7 @@ An in-progress implementation of the DOM API intended to run within a Web Worker
 
 For more information, visit our [blog post](https://bit.ly/worker-dom-blog) announcing WorkerDOM or checkout the [slides](https://bit.ly/worker-dom-slides) from the announcement at JSConf US.
 
-## Installation
+## Installation***
 
 ```bash
 npm install @ampproject/worker-dom
@@ -47,7 +47,7 @@ The nomodule format exposes the global `MainThread`, and could upgrade the `div`
 <script nomodule async=false defer>
   document.addEventListener('DOMContentLoaded', function() {
     MainThread.upgradeElement(document.getElementById('upgrade-me'), './dist/worker/worker.js');
-  }, false);
+  }, true);
 </script>
 ``` 
 
@@ -113,6 +113,12 @@ The AMP Project accepts responsible security disclosures through the [Google App
 ## Code of conduct
 
 The AMP Project strives for a positive and growing project community that provides a safe environment for everyone.  All members, committers and volunteers in the community are required to act according to the [code of conduct](CODE_OF_CONDUCT.md).
+
+### Make your day the beautiful day ###
+
+1.Mr.Rak Ak Sop
+2.Mr.Botbot Sijok
+
 
 ## License
 
